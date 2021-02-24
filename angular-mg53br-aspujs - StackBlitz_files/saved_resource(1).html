@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://angular-mg53br-aspujs.stackblitz.io/ -->
+<html class="isEmbedded"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--<base href="/">--><base href=".">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="./css" rel="stylesheet">
+  <link rel="stylesheet" media="screen" href="./preview-a87b6571.css">
+  <script src="./common-560c43afe5768f8c972cb.js.Без названия" crossorigin="anonymous"></script>
+  <script src="./ext-75f33fc2382a1d340fb6b.js.Без названия" crossorigin="anonymous"></script>
+  <script src="./webcontainer.3a09fea6d6af8fa50aecb2140d2b6d2039950e89.js.Без названия" crossorigin="anonymous"></script>
+  <script src="./preview-c9f765cddfc622204e06b.js.Без названия" crossorigin="anonymous"></script>
+  <script>(function(){_preboot("https://l.staticblitz.com/b/v1/angular-mg53br/6f85551e3d1", {"p":"stackblitz","a":"AIzaSyBZSvuCzbUhuRrSps-HjM5bFClLPaFF9Vg","o":true,"u":"Akishleroy","$":false})})()</script>
+
+    
+    <title>Angular Getting Started</title>
+    <!--<base href="/">--><base href=".">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://angular-mg53br-aspujs.stackblitz.io/favicon.ico">
+    <link href="./icon" rel="stylesheet">
+  <style type="text/css">/* Global Styles */
+
+* {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #616161;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+router-outlet + *  {
+  padding: 0 16px;
+}
+
+/* Text */
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h1, h2 {
+  font-weight: lighter;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* Hyperlink */
+
+a {
+  cursor: pointer;
+  color: #1976d2;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Input */
+
+input {
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #BDBDBD;
+}
+
+label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  display: block;
+  text-transform: uppercase;
+}
+
+/* Button */
+.button, button {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 2px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+}
+
+.button:hover, button:hover {
+  opacity: 0.8;
+  font-weight: normal;
+}
+
+.button:disabled, button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+/* Fancy Button */
+
+.fancy-button {
+  background-color: white;
+  color: #1976d2;
+}
+
+.fancy-button i.material-icons {
+  color: #1976d2;
+  padding-right: 4px;
+}
+
+/* Top Bar */
+
+app-top-bar {
+  width: 100%;
+  height: 68px;
+  background-color: #1976d2;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+app-top-bar h1 {
+  color: white;
+  margin: 0;
+}
+
+/* Checkout Cart, Shipping Prices */
+
+.cart-item, .shipping-item {
+  width: 100%;
+  min-width: 400px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 32px;
+  margin-bottom: 8px;
+  border-radius: 2px;
+  background-color: #EEEEEE;
+}
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/</style><style></style></head>
+<body>
+    <app-root _nghost-ice-c0="" ng-version="11.0.9"><app-top-bar _ngcontent-ice-c0="" _nghost-ice-c1=""><a _ngcontent-ice-c1="" ng-reflect-router-link="/" href="https://angular-mg53br-aspujs.stackblitz.io/"><h1 _ngcontent-ice-c1="">My Store</h1></a><a _ngcontent-ice-c1="" class="button fancy-button" routerlink="/cart" ng-reflect-router-link="/cart" href="https://angular-mg53br-aspujs.stackblitz.io/cart"><i _ngcontent-ice-c1="" class="material-icons">shopping_cart</i>Checkout
+</a></app-top-bar><div _ngcontent-ice-c0="" class="container"><router-outlet _ngcontent-ice-c0=""></router-outlet><app-product-list _nghost-ice-c2=""><h2 _ngcontent-ice-c2="">Products</h2><div _ngcontent-ice-c2="" class="lol"><!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}--><div _ngcontent-ice-c2="" class="prod"><p _ngcontent-ice-c2="" class="center"><!--bindings={
+  "ng-reflect-ng-if": "https://m.media-amazon.com/ima"
+}--><img _ngcontent-ice-c2="" alt="" src="./811p1jxp2pL._AC_UL480_FMwebp_QL65_.jpg"></p><h3 _ngcontent-ice-c2=""><a _ngcontent-ice-c2="" target="_" href="https://www.amazon.com/HP-EliteBook-840-Notebook-Plane/dp/B07VBHBRM1/ref=sr_1_2?dchild=1&amp;qid=1614169728&amp;rnid=13896617011&amp;s=computers-intl-ship&amp;sr=1-2" title="HP EliteBook 840 G6 14&quot; Notebook - Core i7 i7-8565U - 16 GB RAM - 512 GB SSD - Windows 10 Pro - in-Plane Switching (IPS) details"> HP EliteBook 840 G6 14" Notebook - Core i7 i7-8565U - 16 GB RAM - 512 GB SSD - Windows 10 Pro - in-Plane Switching (IPS) </a></h3><!--bindings={
+  "ng-reflect-ng-if": "HP EB840G6 i7-8565U 14 16GB/51"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Description:</strong> HP EB840G6 i7-8565U 14 16GB/512 PC Intel i7-8565U, 14. 0 FHD AG LED UWVA, UMA, Webcam, 16GB DDR4, 512GB SSD, abet, 3C Batt, FPR, W10 Pro64, 3yr Warty U. S </p><!--bindings={
+  "ng-reflect-ng-if": "4.8/5"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Rating:</strong> 4.8/5 </p><p _ngcontent-ice-c2="" class="center"><button _ngcontent-ice-c2=""> Share </button></p><app-product-alerts _ngcontent-ice-c2="" _nghost-ice-c3="" ng-reflect-product="[object Object]"><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><p _ngcontent-ice-c3=""><button _ngcontent-ice-c3="">Notify Me</button></p></app-product-alerts></div><div _ngcontent-ice-c2="" class="prod"><p _ngcontent-ice-c2="" class="center"><!--bindings={
+  "ng-reflect-ng-if": "https://m.media-amazon.com/ima"
+}--><img _ngcontent-ice-c2="" alt="" src="./61ydql4SB5L._AC_UL480_FMwebp_QL65_.jpg"></p><h3 _ngcontent-ice-c2=""><a _ngcontent-ice-c2="" target="_" href="https://www.amazon.com/Smart-ELITEBOOK-I7-10610U-14IN-512GB/dp/B08D3XCXX5/ref=sr_1_3?dchild=1&amp;qid=1614169728&amp;rnid=13896617011&amp;s=computers-intl-ship&amp;sr=1-3" title="Smart Buy ELITEBOOK 840 G7 I7-10610U 14IN 16GB 512GB details"> Smart Buy ELITEBOOK 840 G7 I7-10610U 14IN 16GB 512GB </a></h3><!--bindings={
+  "ng-reflect-ng-if": "SMART BUY ELITEBOOK 840 G7 I7-"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Description:</strong> SMART BUY ELITEBOOK 840 G7 I7-10610U 14IN 16GB 512GB </p><!--bindings={
+  "ng-reflect-ng-if": "4.7/5"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Rating:</strong> 4.7/5 </p><p _ngcontent-ice-c2="" class="center"><button _ngcontent-ice-c2=""> Share </button></p><app-product-alerts _ngcontent-ice-c2="" _nghost-ice-c3="" ng-reflect-product="[object Object]"><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><p _ngcontent-ice-c3=""><button _ngcontent-ice-c3="">Notify Me</button></p></app-product-alerts></div><div _ngcontent-ice-c2="" class="prod"><p _ngcontent-ice-c2="" class="center"><!--bindings={
+  "ng-reflect-ng-if": "https://m.media-amazon.com/ima"
+}--><img _ngcontent-ice-c2="" alt="" src="./71x6Eij820L._AC_UL480_FMwebp_QL65_.jpg"></p><h3 _ngcontent-ice-c2=""><a _ngcontent-ice-c2="" target="_" href="https://www.amazon.com/Dell-Latitude-5300-Non-Touch-i7-8665U/dp/B08F5LRSDW/ref=sr_1_4?dchild=1&amp;qid=1614169728&amp;rnid=13896617011&amp;s=computers-intl-ship&amp;sr=1-4" title="Dell Latitude 5300 Laptop, 13.3&quot; FHD (1920 x 1080) Non-Touch, Intel Core 8th Gen i7-8665U, 8GB RAM, 256GB SSD, Windows 10 Pro, XPI Bundle (Renewed) details"> Dell Latitude 5300 Laptop, 13.3" FHD (1920 x 1080) Non-Touch, Intel Core 8th Gen i7-8665U, 8GB RAM, 256GB SSD, Windows 10 Pro, XPI Bundle (Renewed) </a></h3><!--bindings={
+  "ng-reflect-ng-if": "Latitude 5300 Laptop 13.3 Non-"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Description:</strong> Latitude 5300 Laptop 13.3 Non-Touch Screen </p><!--bindings={
+  "ng-reflect-ng-if": "4.7/5"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Rating:</strong> 4.7/5 </p><p _ngcontent-ice-c2="" class="center"><button _ngcontent-ice-c2=""> Share </button></p><app-product-alerts _ngcontent-ice-c2="" _nghost-ice-c3="" ng-reflect-product="[object Object]"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></app-product-alerts></div><div _ngcontent-ice-c2="" class="prod"><p _ngcontent-ice-c2="" class="center"><!--bindings={
+  "ng-reflect-ng-if": "https://m.media-amazon.com/ima"
+}--><img _ngcontent-ice-c2="" alt="" src="./514X2HBXYEL._AC_UL480_FMwebp_QL65_.jpg"></p><h3 _ngcontent-ice-c2=""><a _ngcontent-ice-c2="" target="_" href="https://www.amazon.com/TS-T14-AMD-G1-W10P/dp/B08CF1K273/ref=sr_1_5?dchild=1&amp;qid=1614169728&amp;rnid=13896617011&amp;s=computers-intl-ship&amp;sr=1-5" title="TS T14 AMD G1 R5 8G W10P details"> TS T14 AMD G1 R5 8G W10P </a></h3><!--bindings={
+  "ng-reflect-ng-if": "TS T14 AMD G1 R5 8G W10P"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Description:</strong> TS T14 AMD G1 R5 8G W10P </p><!--bindings={
+  "ng-reflect-ng-if": "4.7/5"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Rating:</strong> 4.7/5 </p><p _ngcontent-ice-c2="" class="center"><button _ngcontent-ice-c2=""> Share </button></p><app-product-alerts _ngcontent-ice-c2="" _nghost-ice-c3="" ng-reflect-product="[object Object]"><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><p _ngcontent-ice-c3=""><button _ngcontent-ice-c3="">Notify Me</button></p></app-product-alerts></div><div _ngcontent-ice-c2="" class="prod"><p _ngcontent-ice-c2="" class="center"><!--bindings={
+  "ng-reflect-ng-if": "https://m.media-amazon.com/ima"
+}--><img _ngcontent-ice-c2="" alt="" src="./41JVWOEEvDL._AC_UL480_FMwebp_QL65_.jpg"></p><h3 _ngcontent-ice-c2=""><a _ngcontent-ice-c2="" target="_" href="https://www.amazon.com/TopSeller-X390-I5-10210U-256GB-13-3IN/dp/B081725C4S/ref=sr_1_6?dchild=1&amp;qid=1614169728&amp;rnid=13896617011&amp;s=computers-intl-ship&amp;sr=1-6" title="TopSeller TP X390 I5-10210U 1.6G 8GB 256GB SSD 13.3IN W10P details"> TopSeller TP X390 I5-10210U 1.6G 8GB 256GB SSD 13.3IN W10P </a></h3><!--bindings={
+  "ng-reflect-ng-if": "TOPSELLER TP X390 I5-10210U 1."
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Description:</strong> TOPSELLER TP X390 I5-10210U 1.6G 8GB 256GB SSD 13.3IN W10P </p><!--bindings={
+  "ng-reflect-ng-if": "4.6/5"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Rating:</strong> 4.6/5 </p><p _ngcontent-ice-c2="" class="center"><button _ngcontent-ice-c2=""> Share </button></p><app-product-alerts _ngcontent-ice-c2="" _nghost-ice-c3="" ng-reflect-product="[object Object]"><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><p _ngcontent-ice-c3=""><button _ngcontent-ice-c3="">Notify Me</button></p></app-product-alerts></div><div _ngcontent-ice-c2="" class="prod"><p _ngcontent-ice-c2="" class="center"><!--bindings={
+  "ng-reflect-ng-if": "https://m.media-amazon.com/ima"
+}--><img _ngcontent-ice-c2="" alt="" src="./71CU+l7KNTL._AC_UL480_FMwebp_QL65_.jpg"></p><h3 _ngcontent-ice-c2=""><a _ngcontent-ice-c2="" target="_" href="https://www.amazon.com/Smart-ELITEBOOK-I5-8365U-256GB-W10P6/dp/B07YDY59H6/ref=sr_1_9?dchild=1&amp;qid=1614169728&amp;rnid=13896617011&amp;s=computers-intl-ship&amp;sr=1-9" title="Smart Buy ELITEBOOK details"> Smart Buy ELITEBOOK </a></h3><!--bindings={
+  "ng-reflect-ng-if": "SMART BUY ELITEBOOK 840 G6 I5-"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Description:</strong> SMART BUY ELITEBOOK 840 G6 I5-8365U 14IN 8GB 256GB W10P6 </p><!--bindings={
+  "ng-reflect-ng-if": "4.6/5"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Rating:</strong> 4.6/5 </p><p _ngcontent-ice-c2="" class="center"><button _ngcontent-ice-c2=""> Share </button></p><app-product-alerts _ngcontent-ice-c2="" _nghost-ice-c3="" ng-reflect-product="[object Object]"><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><p _ngcontent-ice-c3=""><button _ngcontent-ice-c3="">Notify Me</button></p></app-product-alerts></div><div _ngcontent-ice-c2="" class="prod"><p _ngcontent-ice-c2="" class="center"><!--bindings={
+  "ng-reflect-ng-if": "https://m.media-amazon.com/ima"
+}--><img _ngcontent-ice-c2="" alt="" src="./51iyZhUNrzL._AC_UL480_FMwebp_QL65_.jpg"></p><h3 _ngcontent-ice-c2=""><a _ngcontent-ice-c2="" target="_" href="https://www.amazon.com/Stealth-2-6-15-6-32GB-W10P/dp/B08D6XK9RK/ref=sr_1_14?dchild=1&amp;qid=1614169728&amp;rnid=13896617011&amp;s=computers-intl-ship&amp;sr=1-14" title="Stealth NB details"> Stealth NB </a></h3><!--bindings={
+  "ng-reflect-ng-if": "STEALTH NB I7/2.6 6C 15.6 32GB"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Description:</strong> STEALTH NB I7/2.6 6C 15.6 32GB 1TB W10P </p><!--bindings={
+  "ng-reflect-ng-if": "4.6/5"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Rating:</strong> 4.6/5 </p><p _ngcontent-ice-c2="" class="center"><button _ngcontent-ice-c2=""> Share </button></p><app-product-alerts _ngcontent-ice-c2="" _nghost-ice-c3="" ng-reflect-product="[object Object]"><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><p _ngcontent-ice-c3=""><button _ngcontent-ice-c3="">Notify Me</button></p></app-product-alerts></div><div _ngcontent-ice-c2="" class="prod"><p _ngcontent-ice-c2="" class="center"><!--bindings={
+  "ng-reflect-ng-if": "https://m.media-amazon.com/ima"
+}--><img _ngcontent-ice-c2="" alt="" src="./81sZ3oHeFJL._AC_UL480_FMwebp_QL65_.jpg"></p><h3 _ngcontent-ice-c2=""><a _ngcontent-ice-c2="" target="_" href="https://www.amazon.com/Hewlett-Packard-7KJ85UTABA-830eb-256gb/dp/B07SS5RNK8/ref=sr_1_16?dchild=1&amp;qid=1614169728&amp;rnid=13896617011&amp;s=computers-intl-ship&amp;sr=1-16" title="Hewlett Packard details"> Hewlett Packard </a></h3><!--bindings={
+  "ng-reflect-ng-if": "7KJ85UTABA 830eb G6 I7/1.9 13."
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Description:</strong> 7KJ85UTABA 830eb G6 I7/1.9 13.3 8gb 256gb W10p 64 </p><!--bindings={
+  "ng-reflect-ng-if": "4.6/5"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Rating:</strong> 4.6/5 </p><p _ngcontent-ice-c2="" class="center"><button _ngcontent-ice-c2=""> Share </button></p><app-product-alerts _ngcontent-ice-c2="" _nghost-ice-c3="" ng-reflect-product="[object Object]"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></app-product-alerts></div><div _ngcontent-ice-c2="" class="prod"><p _ngcontent-ice-c2="" class="center"><!--bindings={
+  "ng-reflect-ng-if": "https://m.media-amazon.com/ima"
+}--><img _ngcontent-ice-c2="" alt="" src="./419Y5RSAcmL._AC_UL480_FMwebp_QL65_.jpg"></p><h3 _ngcontent-ice-c2=""><a _ngcontent-ice-c2="" target="_" href="https://www.amazon.com/Smart-ELITEBOOK-I7-10610U-13-3IN-512GB/dp/B08CY543Y3/ref=sr_1_18?dchild=1&amp;qid=1614169728&amp;rnid=13896617011&amp;s=computers-intl-ship&amp;sr=1-18" title="Smart Buy ELITEBOOK X360 details"> Smart Buy ELITEBOOK X360 </a></h3><!--bindings={
+  "ng-reflect-ng-if": "SMART BUY ELITEBOOK X360 830 G"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Description:</strong> SMART BUY ELITEBOOK X360 830 G7 I7-10610U 13.3IN 16GB 512GB" built-in heel. </p><!--bindings={
+  "ng-reflect-ng-if": "4.6/5"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Rating:</strong> 4.6/5 </p><p _ngcontent-ice-c2="" class="center"><button _ngcontent-ice-c2=""> Share </button></p><app-product-alerts _ngcontent-ice-c2="" _nghost-ice-c3="" ng-reflect-product="[object Object]"><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><p _ngcontent-ice-c3=""><button _ngcontent-ice-c3="">Notify Me</button></p></app-product-alerts></div><div _ngcontent-ice-c2="" class="prod"><p _ngcontent-ice-c2="" class="center"><!--bindings={
+  "ng-reflect-ng-if": "https://m.media-amazon.com/ima"
+}--><img _ngcontent-ice-c2="" alt="" src="./416DtWpzjHL._AC_UL480_FMwebp_QL65_.jpg"></p><h3 _ngcontent-ice-c2=""><a _ngcontent-ice-c2="" target="_" href="https://www.amazon.com/TopSeller-2276M-2-8G-15-6IN-NONTCH/dp/B086LJGBKN/ref=sr_1_21?dchild=1&amp;qid=1614169728&amp;rnid=13896617011&amp;s=computers-intl-ship&amp;sr=1-21" title="TopSeller TP P53 E-2276M details"> TopSeller TP P53 E-2276M </a></h3><!--bindings={
+  "ng-reflect-ng-if": "TOPSELLER TP P53 E-2276M 2.8G "
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Description:</strong> TOPSELLER TP P53 E-2276M 2.8G 32GB 1TB SSD 15.6IN NONTCH W10P </p><!--bindings={
+  "ng-reflect-ng-if": "4.5/5"
+}--><p _ngcontent-ice-c2=""><strong _ngcontent-ice-c2="">Rating:</strong> 4.5/5 </p><p _ngcontent-ice-c2="" class="center"><button _ngcontent-ice-c2=""> Share </button></p><app-product-alerts _ngcontent-ice-c2="" _nghost-ice-c3="" ng-reflect-product="[object Object]"><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><p _ngcontent-ice-c3=""><button _ngcontent-ice-c3="">Notify Me</button></p></app-product-alerts></div></div></app-product-list></div></app-root>
+  </body></html>
